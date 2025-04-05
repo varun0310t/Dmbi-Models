@@ -42,7 +42,7 @@ X_test = scaler.transform(X_test)
 X_train = X_train.reshape(455,30,1)
 X_test = X_test.reshape(114,30,1)
 
-epochs = 15
+epochs = 50
 
 model = Sequential()
 model.add(Conv1D(filters=16,kernel_size=2,activation='relu',input_shape=(30,1)))

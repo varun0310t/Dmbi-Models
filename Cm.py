@@ -48,8 +48,8 @@ cnn_accuracy = (cnn_cm[0,0] + cnn_cm[1,1]) / np.sum(cnn_cm)
 
 # Random Forest confusion matrix
 rf_cm = np.array([
-    [97, 11],
-    [7, 56]
+    [68, 3],
+    [8, 35]
 ])
 rf_accuracy = (rf_cm[0,0] + rf_cm[1,1]) / np.sum(rf_cm)
 
